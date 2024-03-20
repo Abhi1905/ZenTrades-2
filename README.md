@@ -1,14 +1,20 @@
-Project 2 Submission: JSON Data Parsing and Presentation with handling features
+Project 3 Submission: Frontend Login Dashboard
 
-Word Done: 
-1. Created the User Interface.
-2. Implemented a feature for users to import data from the downloaded JSON file.
-3. Developed display handling options to control the visibility of columns in the data table. Implemented multi-select functionality for users to choose fields to display. Added ">>" and "<<" buttons for adding and removing selected options between Available Fields and Fields to be displayed Lists.
-4. Displayed the imported JSON data in a table format. Ordered the displayed data based on descending popularity. Ensured the table includes at least the "Title" and "Price" columns.
+Work Done: The login page is made as shown in the image
+![image]()
 
+Points taken care of:
+1. The user name field only accept an email format and the validation is done through Javascript.
+2. The password field is a masked field i.e. it does not reveals what the user is entering.
+3. The password field does not accepts any special character other than '@' and only gets accepted when it contains an uppercase letter and a number.
 
-Additional Considerations: Ensured a user-friendly and intuitive UI design.
+Whenever any incorrect email is entered, such an alert is shown ![image]()
+
+Email is only accepted if it is in the valid format i.e. it must contain one '@' and one '.' indicating an email being valid.
+
+Whenever any incorrect password is entered, such an alert is shown ![image]()
+
+In the end when email and password both are entered in correct format an alert showing 'Login Succesful!' displays. ![image]()
 
 At last the project is hosted on Github pages. Please do give it a try. 😊
-
 
